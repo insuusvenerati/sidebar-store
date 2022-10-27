@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  main a {
+    @apply text-green-900 hover:text-yellow-400;
+  }
+  ol,
+  ul {
+    @apply list-none;
+  }
+  .products_list {
+    @apply mt-0 -mr-4 mb-0 -ml-4;
+  }
+  .products_list.grid {
+    @apply flex flex-wrap;
+  }
+  .products_list .product {
+    @apply max-w-xs w-full pt-0 pr-4 pb-8 pl-4 overflow-hidden relative;
+  }
+}

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  main a {
+  a {
     @apply text-green-900 hover:text-yellow-400;
   }
   ol,
